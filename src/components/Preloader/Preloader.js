@@ -21,7 +21,7 @@ class Preloader extends Component {
       <div className="preloader">
         <div class="spinner_wrap">
             {/* <div class="spinner" /> */}
-            <img src="faro.jpeg" className="spinner" style={{ width: 50, height: 50 }} />
+            <img src="/faro.jpeg" className="spinner" style={{ width: 50, height: 50 }} />
         </div>
       </div>
     );
