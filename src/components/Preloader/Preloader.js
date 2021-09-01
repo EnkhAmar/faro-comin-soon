@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Preloader.css";
+import image from './faro.jpeg'
 
 class Preloader extends Component {
   preloader() {
@@ -21,7 +22,8 @@ class Preloader extends Component {
       <div className="preloader">
         <div class="spinner_wrap">
             {/* <div class="spinner" /> */}
-            <img src={`assets/faro.jpeg`} className="spinner" style={{ width: 50, height: 50 }} />
+            {/* <img src={`assets/faro.jpeg`} className="spinner" style={{ width: 50, height: 50 }} /> */}
+            <img src={image} className="spinner" style={{ width: 50, height: 50 }} />
         </div>
       </div>
     );
